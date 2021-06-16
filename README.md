@@ -8,3 +8,4 @@ helm lint .\stakater-chart
 helm template .\stakater-chart
 helm install --generate-name .\stakater-chart --set env.NAME="Stakater"
 ```
+The commands from above were executed in Windows PowerShell, that's why the syntax.
